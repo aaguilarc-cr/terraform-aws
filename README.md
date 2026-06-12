@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # AWS Infrastructure with Terraform
 
 EC2 server deployment on AWS using Infrastructure as Code.
@@ -19,8 +18,3 @@ terraform destroy  # when done — avoid charges
 
 ## Stack
 Terraform · AWS EC2 · Ubuntu 22.04
-EOF
-
-git add README.md
-git commit -m "docs: add README"
-git push origin main
